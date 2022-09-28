@@ -6,6 +6,8 @@ El desafío es construir esta sección de introducción con navegación desplega
 - CSS
 - JS Vanilla
 
+![desktop-design](https://user-images.githubusercontent.com/112582420/192669238-489c6d45-d282-4c1d-80c5-602d55566acb.jpg)
+
 # Guía de Estilo
 
 ## Diseño
