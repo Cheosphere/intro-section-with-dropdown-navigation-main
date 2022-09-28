@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+  <title>Intro Section With Dropdown Navigatio</title>
+</head>
+
+<body>
+  <!-- CONTAINER AREA -->
+  <main class="container" id="container">
+    <!-- HEADER AREA -->
+    <header class="header">
+      <nav class="header_nav">
+        <figure>
+          <img src="images/logo.svg" class="header_logo_img" alt="logo image">
+        </figure>
+        <!-- NAV MENU AREA -->
+        <ul class="header_nav_menu" id="header_nav_menu">
+          <li class="header_nav_menu_item">
+            <a href="#" id="features">Features<img src="images/icon-arrow-down.svg" id="icon_features"
+                class="arrow_icon" alt="icon arrow"></a>
+            <!-- DROP DOWN MENU FEATURES AREA -->
+            <ul class="header_nav_menu_features" id="features_menu">
+              <li class="header_nav_menu_features_item"><a href="#"><img src="images/icon-todo.svg"
+                    class="features_menu_icon" alt="Todo List Icon">Todo List</a></li>
+              <li class="header_nav_menu_features_item"><a href="#"><img src="images/icon-calendar.svg"
+                    class="features_menu_icon" alt="Calendar Icon">Calendar</a></li>
+              <li class="header_nav_menu_features_item"><a href="#"><img src="images/icon-reminders.svg"
+                    class="features_menu_icon" alt="Reminders Icon">Reminders</a></li>
+              <li class="header_nav_menu_features_item"><a href="#"><img src="images/icon-planning.svg"
+                    class="features_menu_icon" alt="Planning Icon">Planning</a></li>
+            </ul>
+          </li>
+          <li class="header_nav_menu_item">
+            <a href="#" id="company">Company<img src="images/icon-arrow-down.svg" id="icon_company" class="arrow_icon"
+                alt="icon arrow"></a>
+            <!-- DROP DOWN MENU COMPANY AREA -->
+            <ul class="header_nav_menu_company" id="company_menu">
+              <li class="header_nav_menu_company_item"><a href="#">History</a></li>
+              <li class="header_nav_menu_company_item"><a href="#">Our Team</a></li>
+              <li class="header_nav_menu_company_item"><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li class="header_nav_menu_item"><a href="#">Careers</a></li>
+          <li class="header_nav_menu_item"><a href="#">About</a></li>
+          <li class="header_account_menu_item_mobile"><a href="#">Login</a></li>
+          <li class="header_account_menu_item_mobile"><a href="#">Register</a></li>
+        </ul>
+        <ul class="header_account_menu">
+          <li class="header_account_menu_item"><a href="#">Login</a></li>
+          <li class="header_account_menu_item"><a href="#">Register</a></li>
+        </ul>
+        <a href="#" class="icon_mobile_menu" id="icon_mobile_menu"></a>
+      </nav>
+    </header>
+    <!-- CONTENT AREA -->
+    <section class="content">
+      <h1 class="content_title">Make remote work</h1>
+      <p class="content_parag">
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <button class="content_btn">Learn more</button>
+      <div class="content_client_logo">
+        <figure>
+          <img src="images/client-databiz.svg" class="content_client_logo_img" alt="databiz logo">
+        </figure>
+        <figure>
+          <img src="images/client-audiophile.svg" class="content_client_logo_img" alt="audiophile logo">
+        </figure>
+        <figure>
+          <img src="images/client-meet.svg" class="content_client_logo_img" alt="meet logo">
+        </figure>
+        <figure>
+          <img src="images/client-maker.svg" class="content_client_logo_img" alt="maker logo">
+        </figure>
+      </div>
+    </section>
+    <div class="hero">
+      <picture class="hero_image">
+        <source media="(min-width: 601px)" srcset="images/image-hero-desktop.png">
+        <img src="images/image-hero-mobile.png" class="hero_image_img" alt="hero image">
+      </picture>
+    </div>
+  </main>
+  <div class="mask" id="mask"></div>
+</body>
+
+</html>
